@@ -4,7 +4,7 @@ function ImgDivSolutions() {
     return (
         <>
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 [grid-auto-rows:minmax(150px,_auto)] w-screen ml-[calc(50%-50vw)]">
-                <div className="row-span-4 col-span-1 lg:col-span-2 relative text-white overflow-hidden flex flex-col justify-center items-center p-5 lg:pl-14 lg:p-10">
+                {/* <div className="row-span-4 col-span-1 lg:col-span-2 relative text-white overflow-hidden flex flex-col justify-center items-center p-5 lg:pl-14 lg:p-10">
                     <Image
                         src="/solAi.jpg"
                         alt="Artificial Intelligence"
@@ -73,7 +73,7 @@ function ImgDivSolutions() {
                             Experience Strategies
                         </h1>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row-span-4 col-span-1 lg:col-span-2 relative text-white overflow-hidden flex flex-col justify-center items-center p-5 lg:pl-14 lg:p-10">
                     <Image
