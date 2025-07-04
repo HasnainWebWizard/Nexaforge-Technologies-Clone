@@ -47,7 +47,7 @@ function BoostProdCont({ className }) {
                         Your Innovation Collaborators
                     </h1>
                     <p className="text-base md:text-lg lg:text-2xl my-5">
-                        We transcend the role of a mere innovation delivery agency. We integrate seamlessly with your team, becoming an invaluable extension. Regardless of industry or business scope, we stand as your steadfast partners. Above all, we’re your staunchest advocates on the journey toward tangible innovation. That’s our commitment.
+                        We transcend the role of a mere innovation delivery agency. We integrate seamlessly with your team, becoming an invaluable extension. Regardless of industry or business scope, we stand as your steadfast partners. Above all, were your staunchest advocates on the journey toward tangible innovation. Thats our commitment.
                     </p>
 
                     <Link href={'https://www.designrush.com/'}>

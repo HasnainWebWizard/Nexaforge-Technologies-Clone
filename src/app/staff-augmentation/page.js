@@ -92,7 +92,7 @@ function StaffAugmentation() {
                                 </button>
                             </div>
                             <h1 className="text-2xl font-bold mb-4 text-left md:text-center">
-                                Let's Connect!
+                                Let&apos;s  Connect!
                             </h1>
                             <p className="text-left md:text-center mb-5">Reach out to us for any queries, feedback or support. We would love to talk or help make it right together.</p>
 
