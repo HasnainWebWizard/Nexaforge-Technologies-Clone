@@ -1,12 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import Aos from "aos";;
+import Aos from "aos";
 import "aos/dist/aos.css";
 
-
-
-
-Aos.init({});
 const slides = [
     {
         title: "Lunch & Learn",
@@ -41,19 +37,23 @@ const slides = [
     {
         title: "Nexaforge Technologies",
         description:
-            "At Nexaforge Technologies, we host enjoyable events througout the year, creating opportunities for our associates to build strong working relationships and foster personal connnections.",
+            "At Nexaforge Technologies, we host enjoyable events throughout the year, creating opportunities for our associates to build strong working relationships and foster personal connections.",
         image: "/sol-team.jpg",
     },
     {
         title: "Demo Day",
         description:
-            "Demo Days offer teams the stage to exhibit their software solutios, presenting clients details, problem statements, technology employed, challenges encountered, and innovation solutions, fostering collaboration and sharing valuable insights.",
+            "Demo Days offer teams the stage to exhibit their software solutions, presenting client details, problem statements, technology employed, challenges encountered, and innovative solutions, fostering collaboration and sharing valuable insights.",
         image: "/cc-careers.jpg",
     },
 ];
 
 function SliderCareer() {
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        Aos.init({});
+    }, []);
 
     // Auto-switch every 8 seconds
     useEffect(() => {
@@ -63,7 +63,6 @@ function SliderCareer() {
         return () => clearInterval(interval);
     }, []);
 
-    // Manual controls
     const prevSlide = () => {
         setCurrentIndex((prev) => (prev - 1 + slides.length) % slides.length);
     };
@@ -75,8 +74,7 @@ function SliderCareer() {
     return (
         <section className="grid md:grid-cols-2 items-start py-16 gap-8"
             data-aos="zoom-in" data-duration="2000">
-            {/* Left Content */}
-            <div className="">
+            <div>
                 <h2 className="text-4xl font-bold text-gray-800 mb-4">What’s Happening</h2>
                 <h3 className="text-2xl text-gray-800 mb-3">{slides[currentIndex].title}</h3>
                 <p className="text-gray-700 mb-8 min-h-[200px] text-lg">{slides[currentIndex].description}</p>
@@ -97,7 +95,6 @@ function SliderCareer() {
                 </div>
             </div>
 
-            {/* Right Image */}
             <div>
                 <img
                     src={slides[currentIndex].image}
