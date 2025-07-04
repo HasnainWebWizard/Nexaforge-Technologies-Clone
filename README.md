@@ -10,7 +10,7 @@ This is a responsive, modern company website built for **Nexaforge Technologies*
 * Components structured for **modularity and reusability**
 * Integrated **AOS (Animate on Scroll)** animations
 * Real-world UI practice with buttons, layout grids, cards, and dynamic props
-* Pages include: Home, About, Services, Contact, Careers, Staff Augmentation
+* Pages include: Home, About, Services, Contact, Careers, Staff Augmentation, Blogs
 
 ### 📂 Tech Stack:
 
