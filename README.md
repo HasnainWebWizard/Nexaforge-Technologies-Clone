@@ -26,3 +26,8 @@ This is a responsive, modern company website built for **Nexaforge Technologies*
 * Integrated scroll-based animation and form elements.
 * Deployed on **Vercel** (for live demo).
 
+🚀 **Purpose:**
+This project was created to sharpen my frontend development skills, apply real-world concepts, and build a strong portfolio piece for junior web developer roles. It reflects a focus on clean design, React fundamentals, and UI consistency using modern tools.
+
+
+
