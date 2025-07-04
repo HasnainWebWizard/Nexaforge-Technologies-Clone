@@ -15,7 +15,7 @@ function Services() {
             <HeadText
                 topic={"Services"}
                 heading={"Our Commitment Knows No Bounds"}
-                description={"No matter your company’s size, we’re here to champion innovation and bring your boldest ideas to life, leaving mediocrity far behind. "}
+                description={"No matter your companys size, were here to champion innovation and bring your boldest ideas to life, leaving mediocrity far behind. "}
 
 
             />
@@ -40,7 +40,7 @@ function Services() {
                 img={"po-mens.jpg"}
 
                 heading2={"Custom Software Solutions"}
-                para2={"Whether you’re seeking B2B, B2C, or SaaS software development, find comprehensive solutions all in one place. Leveraging years of expertise, we deliver unparalleled custom software development services to clients worldwide. "}
+                para2={"Whether youre seeking B2B, B2C, or SaaS software development, find comprehensive solutions all in one place. Leveraging years of expertise, we deliver unparalleled custom software development services to clients worldwide. "}
                 img2={"careers3.jpg"}
             />
 
@@ -64,7 +64,7 @@ function Services() {
                 img={"cc-careers.jpg"}
 
                 heading2={"UI/UX Design Services"}
-                para2={"Our UI/UX design process begins with a thorough analysis of your target audience to comprehend their behaviors, requirements, and obstacles. This approach allows us to create visually captivating, user-centric interfaces that optimize your software’s usability. "}
+                para2={"Our UI/UX design process begins with a thorough analysis of your target audience to comprehend their behaviors, requirements, and obstacles. This approach allows us to create visually captivating, user-centric interfaces that optimize your softwares usability. "}
                 img2={"uiux.jpg"}
 
             />
