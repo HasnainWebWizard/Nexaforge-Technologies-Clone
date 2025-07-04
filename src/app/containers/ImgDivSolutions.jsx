@@ -7,7 +7,7 @@ function ImgDivSolutions() {
                 <div className="row-span-4 col-span-1 lg:col-span-2 relative text-white overflow-hidden flex flex-col justify-center items-center p-5 lg:pl-14 lg:p-10">
                     <Image
                         src="/solAi.jpg"
-                        alt="Experience"
+                        alt="Artificial Intelligence"
                         fill
                         priority
                         className="object-cover object-center transition duration-700 hover:scale-110"
@@ -30,7 +30,7 @@ function ImgDivSolutions() {
                 <div className="row-span-2 col-span-1 lg:col-span-2 relative overflow-hidden flex flex-col justify-center items-center p-5 lg:p-10">
                     <Image
                         src="/SolWomen.png"
-                        alt="Experience"
+                        alt="Enterprise"
                         fill
                         priority
                         className="object-cover object-center transition duration-700 hover:scale-125"
